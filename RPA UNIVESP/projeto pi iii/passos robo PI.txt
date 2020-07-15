@@ -1,0 +1,60 @@
+Robô contratado pela empresa depositante das amostras de petróleo
+
+Passos:
+
+1) A empresa recebe um e-mail da ANP. No e-mail temos anexado um documento
+chamado SAA. Esse documento contêm o pedido de amostras de petróleo.
+
+2) A empresa, detentora das amostras, primeiro, compara a lista das amostras
+solicitadas com a lista das amostras em seu banco de dados. 
+Segundo, das amostras solicitadas, verifica com quais a empresa trabalha.
+Terceiro, verifica a disponibilidade das amostras em seus banco de dados.
+
+3) Monta um relatório informando, das amostras solicitadas, com quais a 
+empresa trabalha, quais estão disponíveis e o custo das amostras.
+
+4) Um e-mail desse relatório é enviado de volta a ANP.
+
+
+
+Ordem dos formulários gerenciados pela empresa depositária:
+1) documento SAA, o que nos interessa: (Detalhe Poço)
+
+
+As tabelas de custos podem ser obtida pelo seguinte link:
+"http://www.anp.gov.br/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/amostra-de-rochas-e-fluidos"
+no tópico de "Valores praticados pelas fiéis depositárias para atendimento das SAAs";
+
+tipos de amostras: plugue, amostras de calha, lâminas, AMOSTRAS LATERAIS, fluidos, testemunho de sondagem
+
+Amostras laterais
+
+Amostras obtidas na parede do poço, de formato aproximadamente cilíndrico, cuja obtenção visa preservar a estrutura da rocha
+e proporcionar segurança quanto à profundidade da extração.
+
+
+Banco de Dados (BD_AmostraLateral_EmpresaDepositaria), o que me interessa:
+Nome do Poço (C)
+Profundidade (E)
+Status (K)
+Disponibilidade (M)
+
+Formulário SAA, o que me interessa:
+Nome do Poço (Detalhamento do Poço)
+Profundidade
+
+Lista de Preços KAROON, o que me interessa:
+Serviços: -> 2.Amostra Lateral -> Coleta (obtenção) de amostras
+Valor 2020 (R$)
+
+Planilhas Excel Utilizadas serão:
+Formulário SAA de pedido de amostras
+BD_AmostraLateral_EmpresaDepositária
+Lista de Preços KAROON
+
+
+
+
+
+
+
